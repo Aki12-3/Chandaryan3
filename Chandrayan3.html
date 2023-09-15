@@ -1,0 +1,409 @@
+<!-- Made by Ankit kumar Yadav-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Page title</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+      body{
+         background-image:url("https://i.ibb.co/GJ7cc6q/Screenshot-20230824-151823-Google.png");
+         height:100vh;
+         margin:0;
+      }
+      
+      /* Moon with spot by Ankit Kumar Yadav*/
+      
+      .moon{
+         position:relative;
+         top:520px;
+         left:50px;
+         height:290px;
+         width:293px;
+         border-radius:50%;
+         background-color:#ffffea;
+         opacity:1;
+         box-shadow:0 0 5px 1px white;}
+ 
+      .spot1{
+         position:absolute;
+         top:50px;
+         left:60px;
+         width:32px;
+         height:35px;
+         border-radius:50%;
+         background-color:#b2b2a3
+      }
+         .spot2{
+         position:absolute;
+         top:100px;
+         left:180px;
+         width:27px;
+         height:24px;
+         border-radius:50%;
+         background-color:#b2b2a3
+      }
+        .spot3{
+         position:absolute;
+         top:200px;
+         left:30px;
+         width:32px;
+         height:30px;
+         border-radius:50%;
+         background-color:#b2b2a3
+      }
+          .spot4{
+         position:absolute;
+         top:250px;
+         left:140px;
+         width:29px;
+         height:31px;
+         border-radius:50%;
+         background-color:#b2b2a3
+      }
+         .spot5{
+         position:absolute;
+         top:220px;
+         left:220px;
+         width:30px;
+         height:23px;
+         border-radius:50%;
+         background-color:#aaa
+      }
+     .spot6{
+         position:absolute;
+         top:70px;
+         left:240px;
+         width:10px;
+         height:7px;
+         border-radius:50%;
+         background-color:#b2b2a3
+         }
+          .spot7{
+         position:absolute;
+         top:168px;
+         left:240px;
+         width:10px;
+         height:16px;
+         border-radius:50%;
+         background-color:#aaa
+         }
+         .spot8{
+         position:absolute;
+         top:40px;
+         left:100px;
+         width:8px;
+         height:9px;
+         border-radius:50%;
+         background-color:#b2b2a3;
+         }
+         
+         .spot9{
+         position:absolute;
+         top:120px;
+         left:130px;
+         width:15px;
+         height:19px;
+         border-radius:50%;
+         background-color:#b2b2a3
+         }
+            .spot10{
+         position:absolute;
+         top:160px;
+         left:30px;
+         width:10px;
+         height:12px;
+         border-radius:50%;
+         background-color:#b2b2a3
+         }
+           .spot11{
+         position:absolute;
+         top:40px;
+         left:160px;
+         width:19px;
+         height:15px;
+         border-radius:50%;
+         background-color:#b2b2a3
+         }
+           .spot12{
+         position:absolute;
+         top:80px;
+         left:250px;
+         width:21px;
+         height:21px;
+         border-radius:50%;
+         background-color:#b2b2a3
+         }
+         .spot13{
+         position:absolute;
+         top:180px;
+         left:130px;
+         width:21px;
+         height:21px;
+         border-radius:50%;
+         background-color:#b2b2a3
+         }
+         
+         /* Indian flag*/
+           
+         .flag{
+            position:absolute;
+         top:-60px;
+         left:102px;
+         height:18px;
+         width:40px;
+         }
+         .stripe{
+           width:100%;
+           height:50%; 
+         }
+         .orange{
+            background-color: orange;
+             }         
+             .white{
+            background-color: white;
+             }         
+             .green{
+            background-color: green;
+             }  
+           .chakra{
+              width:10px;
+              height:10px;
+              border-radius:50%;
+              position:absolute;
+              top:8px;
+              left:16px;
+              background-color:blue;
+              } 
+           .stick{
+              position:absolute;
+              width:3px;
+              height:42px;
+              background-color:white;
+              z-index:5;
+              } 
+              
+              /* stars*/
+              
+              .stars{
+                position:absolute;
+                height:100%;
+                width:100%;
+              }
+               .star{
+                   width:1px;
+                height:1px;
+                background-color:white;
+                box-shadow:0 0 2px 2px white;
+                border-radius:50%;
+                transition:5s;
+                animation:dim 5s infinite;
+               }
+              .star1{
+                 position:absolute;
+                 top:-90%;
+                 left:60%;
+              }
+               .star2{
+                 position:absolute;
+                top:-50%; 
+                left:70%;
+                 
+              }
+              .star3{
+                 position:absolute;
+                 top:-70%;
+                 left:100%;
+              } 
+              .star4{
+                 position:absolute;
+                 top:-10%;
+                 left:10%;
+              }         
+              .star5{
+                 position:absolute;
+                 top:-110%;
+                 left:40%;
+              }         
+              .star6{
+                 position:absolute;
+                 top:-60%;
+                 left:0%;
+              }         
+               .star7{
+                 position:absolute;
+                 top:0%;
+                 left:90%;
+              }              
+              .star9{
+                 position:absolute;
+                 top:90%;
+                 left:5%;
+              }              
+               .star8{
+                 position:absolute;
+                 top:100%;
+                 left:100%;
+              }
+              @keyframes dim{
+                 0%{
+                    opacity:1;
+                 }
+                 50%{
+                    opacity:0.2;
+                 }
+                 100%{
+                    opacity:1;
+                 }
+              }
+         <!-- Vikram lander -->
+         .vikram{
+            position:absolute;
+            top:-10%;
+            left:45%;
+            animation:land 13s;
+            transition:11s;
+         } 
+         @keyframes land{
+            0%{
+            position:absolute;
+            top:-110%;
+            left:5%;
+               }
+            100%{
+            position:absolute;
+            top:-17%;
+            left:45%;
+               }
+         }
+       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tilt+Prism&display=swap');
+      .text{
+         position:absolute;
+         top:-175%;
+         left:0%;
+         font-size:26px;
+         font-weight:700;
+         color:cyan;
+         font-family: 'Playfair Display', serif;
+         text-shadow:3px 4px 8px cyan;
+         width:18ch;
+          text-align:center;
+   overflow:hidden;
+   animation:slide 3s steps(60) 2s;
+   white-space:nowrap;
+}
+@keyframes slide{
+   from{
+      width:0;
+   }
+} 
+.maker{
+   position:absolute;
+         top:-160%;
+         left:21%;
+         font-size:15px;
+         font-weight:600;
+         color:#85ff15;
+         font-family: 'Playfair Display', serif;
+         text-shadow:2px 2px 5px yellow;
+         width:18ch;
+          text-align:center;
+   overflow:hidden;
+   animation:slide 3s steps(40) 2s;
+   white-space:nowrap;
+} 
+.about{
+   color:#955251;
+   border:4px solid #ff1f00;
+   background-color:#ffd5df;
+   width:120%;
+   height:345px;
+   font-weight:600;
+   font-size:15px;
+   display:inline-block;
+   position:absolute;
+   top:-145%;
+   left:-7%;
+  text-align:center;
+  text-shadow:1px 1px 2px #5558ff;
+  border-radius:10px;
+  font-family: 'Playfair Display', serif;
+  transition:3s;
+  animation:disapear 15s ease-in;
+  opacity:1; 
+}
+@keyframes disapear{
+   0%{
+      opacity:0
+   }
+   75%{
+      opacity:0
+   }
+   100%{
+      opacity:1
+   }
+} 
+
+.abcenter{
+   color:#ff6940;
+   font-size:19px;
+   font-weight:900;
+   text-shadow:2px 3px 4px black;
+}                
+   </style>
+</head>
+<body>
+   <!-- Moon with spot -->
+   <div class="moon">
+      <div class="spot1"></div>
+      <div class="spot2"></div>
+      <div class="spot3"></div>
+      <div class="spot4"></div>
+      <div class="spot5"></div>
+      <div class="spot6"></div>
+      <div class="spot7"></div>
+      <div class="spot8"></div>
+      <div class="spot9"></div>
+      <div class="spot10"></div>
+     <div class="spot11"></div>
+     <div class="spot12"></div>
+     <div class="spot13"></div
+      </div>
+      <!-- Indian flag -->
+   <div class="flag">
+      <div class="stripe orange"></div>
+      <div class="stripe white">
+      </div>
+      <div class="stripe green"></div>
+      <div class="stick"></div>
+      <div class="chakra"></div>
+   </div>
+    <!-- Stars --> 
+    <div class="stars">
+       <div class="star star1"></div>
+       <div class="star star2"></div>
+       <div class="star star3"></div>
+       <div class="star star4"></div>
+       <div class="star star5"></div>
+       <div class="star star6"></div>
+       <div class="star star7"></div>
+       <div class="star star8"></div>
+       <div class="star star9"></div>
+      
+    <!-- Vikram -->
+    
+    <div class="vikram">
+     <img src="https://i.ibb.co/89wd4Wf/Screenshot-20230824-122020-Google-removebg-preview.png" alt="Screenshot-20230824-122020-Google-removebg-preview" border="0" width="62px" style="position:absolute;top:-17%;left:45%;animation:land 13s ease-out;transition:12s;"></div>
+     <!-- Text -->
+     <div class="text">Chandrayaan 3🇮🇳</div>
+     <div class="maker">(Made by Ankit Kumar Yadav)</div>
+     <div class="about"><div class="abcenter">About CHANDRAYAAN-3</div><hr>Congratulations🥳 CHANDRAYAAN 3 successfully softlanded on the lunar(Moon) surface.<b>India</b> is the first country to land on the south pole of the moon.Chandrayaan-3 is the third Indian lunar exploration mission under the Indian Space Research Organisation's (ISRO) Chandrayaan programme. It consists of a lander named Vikram and a rover named Pragyan, similar to those of the Chandrayaan-2 mission.</div>
+     <script>
+        alert("This code is tribute to CHANDRAYAAN-3.See this code and commemt how it is?");
+        alert("This code is made by Me(Sambhu) and please upvote this,it takes 5hr to build this code❤️ ");
+        alert("Wait for end");
+        console.log("Do upvote and comment on this code");
+     </script>
+                
+</body>
+</html>
